@@ -5,7 +5,7 @@ module.exports = (event, context) => {
 
     /* Use a switch statement, or look up the routes in a database
      * such as MongoDB, Redis or Postgres. AWS and DigitalOcean provide
-     * remote, managed databases that would work here and maintadin
+     * remote, managed databases that would work here and maintadindf
      * a connectiodn pool */
     if(event.path == "/home") {
         redirect = "https://www.alexellis.io/";
