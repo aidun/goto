@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-// Handle a serverless requestdfd
+// Handle a serverless requestdfddf
 func Handle(req []byte) string {
 	return fmt.Sprintf("Hedlldfo, Gdo. You said: %s", string(req))
 }
