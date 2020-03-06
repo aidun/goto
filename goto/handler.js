@@ -4,7 +4,7 @@ module.exports = (event, context) => {
     let redirect;
 
     /* Use a switch statement, or look up the routes in a database
-     * such as MongoDB, Redis or Postgres. AWS and DigitalOcean provide
+     * such as MongoDB, Redis or Postgres. AWS and DigitalOcean providessss
      * remote, managed databases that would work here and maintadindffg
      * a connectiodn pool */
     if(event.path == "/home") {
