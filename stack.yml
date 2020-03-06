@@ -4,6 +4,6 @@ provider:
   gateway: http://127.0.0.1:8080
 functions:
   goto:
-    lang: node10-express
+    lang: go
     handler: ./goto
     image: goto:latest
